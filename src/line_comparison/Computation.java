@@ -27,5 +27,13 @@ public class Computation {
 		line2_distance= (float) Math.sqrt(((x4 - x3) * (x4 - x3) ) + ((y4 - y3) *(y4 - y3)));
 		System.out.println("the length of line 1 is "+line1_distance+" and line 2 is "+line2_distance);
 	}
+	public void compare() {
+		if(line1_distance == line2_distance) {
+			System.out.println("the two lines are equal");
+		}
+		else {
+			System.out.println("they are not equal");
+		}
+	}
 
 }
